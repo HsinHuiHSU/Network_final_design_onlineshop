@@ -1,0 +1,123 @@
+/*會員專區*/
+.check {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+.check-left {
+    width: 750px;
+    margin-right: 40px;
+
+    padding: 20px;
+}
+
+.check-right {
+
+    padding: 25px;
+    width: 240px;
+    height: 600px;
+}
+
+.check-inside {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 25px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.shopbag{
+    opacity: 0;
+}
+
+#myOrder {
+    font-size: 20px;
+    padding: 0 0 18px 20px;
+    font-weight: bold;
+}
+
+#check-detail {
+    font-size: 20px;
+    padding: 0 0 18px 0;
+    font-weight: bold;
+}
+
+.pdt-name {
+    display: flex;
+    padding-left: 20px;
+}
+
+.pdt-img {
+    padding-right: 25px;
+}
+
+.pdt-title {
+    padding-bottom: 35px;
+}
+
+.check-inside .minus,
+.check-inside .num,
+.check-inside .add {
+    background-color: #fff;
+}
+
+.check-inside .qty {
+    height: 28px;
+    padding-left: 10px;
+    margin-top: -3px;
+}
+
+.check-all {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.check-all-pay {
+    padding: 15px 0 15px 0;
+}
+
+#total {
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.pay {
+    margin-top: 20px;
+}
+
+.go-pay input {
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #de705b;
+    border: none;
+    font-size: 18px;
+
+}
+
+.done {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+.done-block {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+
+}

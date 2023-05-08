@@ -1,0 +1,224 @@
+/*會員專區*/
+.member {
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+}
+
+.member-left {
+    width: 240px;
+    margin-right: 2%;
+
+}
+
+.member-right {
+    border: 3px solid;
+    padding: 25px;
+    width: 500px;
+    height: 350px;
+    animation: righttoleft 1.2s;
+}
+
+
+
+/*滑入動畫*/
+@keyframes righttoleft {
+
+    0% {
+        transform: translateX(3000px);
+    }
+
+}
+.datatable tr ,td,table{
+    border: none;
+}
+.rtl {
+    overflow: hidden;
+}
+
+.photo {
+    width: 240px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid;
+    
+}
+
+.photo img {
+    border-radius: 50%;
+    border: #000 solid 1px;
+}
+
+.member-buttons {
+    width: 240px;
+    height: 300px;
+    margin-top: 25px;
+}
+
+.member-but {
+    cursor: pointer;
+    line-height: 40px;
+    color: #000;
+    background-color: transparent;
+    transition: all .3s linear;
+    padding-left: 8px;
+}
+
+.member-but:hover {
+    background-color: #de705b;
+    color: #fff;
+}
+
+.input-data {
+    border: 1px solid;
+    outline: none;
+    padding: 5px 0 8px 15px;
+
+    cursor: unset;
+}
+
+.left {
+    padding: 0 80px 10px 0;
+}
+
+
+.admin input{
+    width: 205px;
+}
+
+.button {
+    padding-top: 25px;
+    float: right;
+    cursor: pointer;
+    position: absolute;
+}
+
+.datatable{
+    position: absolute;
+}
+
+.but1 {
+    width: 100px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    background-color: transparent;
+    border: 1px solid;
+    transition: all .35s linear;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 310px;
+    top: 130px;
+}
+
+.but5 {
+    width: 100px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    background-color: transparent;
+    border: 1px solid;
+    transition: all .35s linear;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 297px;
+    top: -10px;
+}
+
+.but3 {
+    width: 100px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    background-color: transparent;
+    border: 1px solid;
+    transition: all .35s linear;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 328px;
+    top: -10px;
+}
+
+.but4 {
+    width: 100px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    background-color: transparent;
+    border: 1px solid;
+    transition: all .35s linear;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 297px;
+    top: -10px;
+}
+
+.but1:hover {
+    background-color: #de705b;
+    color: #fff;
+}
+
+.but5:hover {
+    background-color: #de705b;
+    color: #fff;
+}
+
+.but3:hover {
+    background-color: #de705b;
+    color: #fff;
+}
+
+.but4:hover {
+    background-color: #de705b;
+    color: #fff;
+}
+
+#thisbut {
+    line-height: 40px;
+    color: #fff;
+    background-color: #de705b;
+    padding-left: 8px;
+}
+
+.orderlist{
+    height: 395px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.orderlist p {
+    font-size: small;
+}
+
+.orderlista{
+    height: 430px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.order-1 {
+    display: flex;
+    padding: 10px;
+
+}
+
+.order-img {
+    padding-right: 15px;
+}
+
+#member-order {
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.boardflow{
+    height: 105px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}

@@ -1,0 +1,232 @@
+.sidecart {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 80px;
+    z-index: 1000;
+    
+
+}
+
+.closecart {
+    position: absolute;
+    top: 0;
+    right: 285px;
+    font-size: 36px;
+    margin-right: 50px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 50px;
+    line-height: 80px;
+    
+}
+
+.cart {
+    background-color: #f1f1f1;
+    height: 90%;
+    padding: 25px;
+    display: flex;
+    
+}
+
+.carttitle {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.carttitle p {
+    line-height: 30px;
+    margin-top: -80px;
+    padding: 30px;
+    overflow: hidden;
+
+}
+
+.product {
+    display: flex;
+}
+
+.qty {
+    display: flex;
+    border: 0.5px #000 solid;
+    width: 60px;
+    height: 15px;
+    justify-content: space-between;
+}
+
+.pdt div,
+.pdt {
+    padding: 0 0 12px 10px;
+}
+
+.price {
+    font-size: smaller;
+    display: flex;
+}
+
+.pdt hr {
+    width: 320px;
+    margin-left: -100px;
+    margin-bottom: 10px;
+}
+
+.minus,
+.add,
+.num {
+    width: 28px;
+    height: 25px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    border: none
+}
+
+.minus {
+    margin-left: -10px;
+}
+
+.minus,
+.add {
+    cursor: pointer;
+}
+
+.qty input {
+    font-size: small;
+}
+
+.num {
+    background-color: #f1f1f1;
+    outline: none;
+    cursor: text;
+}
+
+.sumPrice {
+    display: flex;
+    padding-top: 10px;
+}
+
+.sum-bottom {
+    padding: 10px;
+}
+
+.gopay {
+    padding-left: 50px;
+    text-align: center;
+    width: 275px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.gopay a {
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    color: #fff;
+    background-color: #de705b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-bottom {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 90px;
+}
+
+.cross {
+    margin-left: -15px;
+    margin-top: -5px;
+}
+
+
+
+
+
+/* 商城增減按鈕 */
+.qty2 {
+    display: flex; 
+    border: 0.5px #000 solid;
+    width: 333px;
+    height: 45px;
+    font-size: 16px;
+    
+}
+
+
+.num2 {
+    width: 224px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+    
+}
+
+.minus2,
+.add2 {
+    width: 45px;
+    height: 42px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 45px;
+    color: black;
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+}
+
+
+.minus2,
+.add2 {
+    cursor: pointer;
+}
+
+.qty2 input {
+    font-size: small;
+}
+
+.num2 {
+    background-color: #ffffff;
+    outline: none;
+    cursor: text;
+}
+.minus2{
+    background-color: #ffffff;
+}
+.add2{
+    background-color: #ffffff;
+}
+
+.quant{
+    margin-top: 15px;
+    width: 333px;
+    font-size: 17px;
+    border: solid black 2px;
+    padding: 16px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    font-style: Arial;
+    font-weight: bolder;
+}
+
+.quant:hover{
+    opacity: 0.7;
+}
+

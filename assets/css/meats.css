@@ -1,0 +1,229 @@
+/*Meats*/
+.meats {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    
+}
+/* 上方logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    flex-direction: column;
+    border: 3px solid;
+}
+
+.logoname {
+    width: 600px;
+
+    text-align: center;
+}
+
+.logoname h1 {
+    height: 80px;
+    font-size: 72px;
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+    letter-spacing: -5px;
+    font-family: DengXian;
+    font-weight: 500;
+
+
+}
+
+.A5img img{
+    width: 1100px;
+}
+
+.meatstitle {
+    height: 60px;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    font-size: larger;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.meatstop{
+    padding-bottom: 20px;
+    text-align: center;
+    height: 100%; 
+}
+.meatstitle1{
+height: 100%;
+}
+
+.productimg{
+
+    width: 1100px;
+    left: 50%;
+    position: relative;
+    margin-left: -550px;
+    float: left;
+}
+  
+.productimg1{
+    margin-left: -35px;
+    transform:scale(1,1);transition: all 1s ease-out;
+    height: 403px;
+}
+
+.productblock{
+    text-align: center;
+    margin: 0 15px;
+    font-weight: lighter;
+    float: left;
+    width: 333px;
+    height: 403px;
+    overflow: hidden;
+    padding-bottom: 85px;
+}
+
+
+
+.hidden:hover .producttext2{
+    height: 15%;
+
+}
+
+
+
+.hidden{
+    width: 333px;
+    height: 403px;
+    overflow: hidden;
+    position: relative;
+
+}
+.hidden img{
+    transform:scale(1,1);transition: all .5s ease-out;
+    height: 403px;
+    
+}
+
+.producttext{
+    padding-top: 20px;
+}
+
+
+.producttext2{
+    position: absolute;
+    bottom: 0;
+
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.75);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+
+
+.productblock:hover .productimg1{
+    transform: scale(1.05,1.05);
+}
+
+.toup{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 900;
+}
+
+
+.toup:hover{
+    color: rgb(80, 78, 78);
+
+}
+
+
+
+
+.buycar{
+    margin-top: 12px;
+    font-size: 17px;
+    border: solid black 2px;
+    padding: 13px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+
+
+
+.buycar:hover{
+    opacity: 0.7;
+}
+
+
+
+.American{
+    padding-top: 1100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.aboutbuttons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 500px 0 20px 0;
+    width: 600px;
+}
+
+.but2 {
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    transition: all .35s linear;
+    background-color: #fff;
+    color: #000;
+    border: 1px #000 solid;
+    line-height: 50px;
+}
+
+.but2:hover {
+    background-color: transparent;
+    color: #fff;
+    background-color: #000;
+}
+
+
+.compute{
+    position: absolute;
+    padding-left: 15px;
+    top: 488px;
+
+}
+.product0{
+    position: relative;
+    height: 500px;
+    float: left;
+    padding-bottom: 150px;
+}
+
+
+
+.animalimg img{
+    height: 300px;
+}
